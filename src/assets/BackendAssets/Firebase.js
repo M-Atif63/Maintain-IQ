@@ -2,7 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/12.16.0/fireba
 import {
     getAuth,
     createUserWithEmailAndPassword,
-
+    signInWithEmailAndPassword
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
 import {
     getFirestore,
@@ -11,8 +11,8 @@ import {
     
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js"
 export {
-    createUserWithEmailAndPassword
-
+    createUserWithEmailAndPassword,
+    signInWithEmailAndPassword
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js"
 
 const firebaseConfig = {

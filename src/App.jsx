@@ -1,10 +1,10 @@
 import React from 'react'
-import Signup from './assets/registeration/Signup'
+import Routing from './assets/route/Routing.jsx'
 
 function App() {
   return (
     <div>
-      <Signup/>
+      <Routing/>
     </div>
   )
 }

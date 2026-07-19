@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Analytics() {
+function Technicians() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Analytics() {
   )
 }
 
-export default Analytics
+export default Technicians
